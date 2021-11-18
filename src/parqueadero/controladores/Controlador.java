@@ -21,7 +21,7 @@ public class Controlador implements ActionListener{
     public Controlador(ModeloBD modelo, Vista vista) {
         this.modelo=modelo;
         this.vista=vista;
-        vista.jButton1.addActionListener(this);
+        vista.boton.addActionListener(this);
     }
 
     @Override
